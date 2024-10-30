@@ -10,7 +10,7 @@ import { mapLookUpItem } from "helpers/utils";
 import organizationsSchema from "./organizationSchema";
 
 const _logger = debug.extend("OrganizationsForm");
-
+console.log("");
 function OrganizationsForm() {
   const [orgFormData, setOrgFormData] = useState({
     organizationTypeId: "",

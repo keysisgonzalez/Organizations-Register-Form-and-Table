@@ -39,7 +39,7 @@ function OrganizationsTable() {
     phone: "",
     siteUrl: "",
   });
-
+  console.log("");
   const [lookupData, setLookupData] = useState({
     organizationType: [],
     mappedOrgType: [],
